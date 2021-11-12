@@ -1,5 +1,9 @@
 # Introduction
 
+> #### Warning:
+>
+> This chapter will be very wordy just to get everything laid down as a basis. I promise future chapters will be easier to read and understand.
+
 ## What, why, who!?
 
 First of all, what is TypeScript and why would you use it? TypeScript is a heroic superset of JavaScript that brings strict typing to the language. Strict typing is useful because it allows us to write predictable and reliable code that guarantees the types of things at compile time, before our code even runs. Additionally, it allows us to write code that is easier to read and maintain. For example if we wanted to write a function that takes some type of arguments and returned a complex value, we could type the function's signature to ensure that when we came back to read it in the future we could look at it and be able to confirm the input and output of the function. This allows us to write code that can be easy to maintain at scale. Also, it's helpful for teams as other developers can read and understand our code and know what it does.

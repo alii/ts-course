@@ -50,4 +50,8 @@ Argument of type 'string' is not assignable to parameter of type 'number'. (2345
 
 This is TypeScript telling us that we are giving an invalid parameter type to our function! How helpful! We can now prevent our code from compiling until the developer has fixed this bug, because we know for a fact that this code will not work at runtime. You can't multiply a string by a string!
 
-Type annotations are arguably the primary feature of TypeScript. They enable us as developers to see at a glance what types of data we are dealing with and how we can use that data. Our code becomes less buggy too as a direct result of this because we know what to expect in our functions and we can be confident that our code will not compile until we fix any bugs.
+Type annotations are arguably the primary feature of TypeScript. They enable us as developers to see at a glance what types of data we are dealing with and how we can use that data. Our code becomes less buggy too as a direct result of this because we know what to expect in our functions and we can be confident that our code will not compile until we fix any bugs. Maybe at this point you can start to see why utilizing TypeScript is so much more useful than plain, vanilla JavaScript.
+
+And that wraps up our introduction to TypeScript! We've seen how the language can let us write predictable code and reduce bugs. There's no wonder is growing rapidly in popularity and adoption. I hope you enjoy this course and I hope you'll join me on the journey to becoming a better developer! In the next chapter we will cover the basic data types and how to use them.
+
+Alistair xoxo
